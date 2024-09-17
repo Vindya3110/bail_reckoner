@@ -1,0 +1,72 @@
+.judge-page {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .judge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .judge-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .judge-profile img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .judge-id {
+    font-weight: bold;
+  }
+  
+  .prisoner-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .prisoner-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 200px ;
+  }
+  
+  .prisoner-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .prisoner-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  
